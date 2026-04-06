@@ -1,0 +1,16 @@
+# Configuration for House Price Prediction System
+
+models:
+  path: "./models"
+  sale_model: "sale_model.pkl"
+  rent_model: "rent_model.pkl"
+  sale_prep: "sale_preprocessor.pkl"
+  rent_prep: "rent_preprocessor.pkl"
+
+api:
+  port: 8000
+  host: "0.0.0.0"
+
+thresholds:
+  annual_yield_pct: 5.0
+  breakeven_years: 20.0
